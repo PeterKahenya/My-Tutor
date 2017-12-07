@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-color: #ccc;
+}
+
+.main-content{
+	width: 75%;
+	left: 12%;
+	position: absolute;
+	height: 100%;
+	top: 80px;
+	padding: 15px 30px;
+
+
+}
+.menus{
+	float: right;
+}
+
+.nav-main{
+	width: 100%;
+	height: 70px;
+	background-color: #008080;
+	box-shadow:-8px 8px 8px #888;
+}
+.logo{
+	float: left;
+	color: #008080;
+	padding: 15px 30px;
+	font-weight: bolder;
+	font-size: 32px;
+	border: 2px solid #008050;
+	background-color: #3c3c3c;
+}
+
+.notif{
+	background-color: #fff;
+	height: 75px;
+	box-shadow:-8px 8px 8px #888;
+}
+
+.details{
+	margin: 0;
+	float: left;
+	display:block;
+	height: 60px;
+	color: #00a050;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 10px;
+	background-color: #3c3c3c;
+}
+
+.sendericon{
+	float: left;
+	height: 25px;
+	width: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.profilepic{
+	float: left;
+	height: 70px;
+	width: 70px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.tabs{
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type: none;
+}
+.tabs >li{
+	float: left;
+}
+
+.tabs >li >a{
+	text-decoration: none;
+    height: 40px;
+    padding: 15px 30px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.nav-main >ul >li >a:hover{
+    background-color: #ccc;
+    color: #008080;
+}
+
+.logout{
+	float: right;
+	padding: 0;
+	margin:0;
+}
+.logout >a{
+    	text-decoration: none;
+    color: #fff;
+    height: 40px;
+    padding: 15px 30px;
+    display: inline-block;
+    line-height: 35px;
+}
+.logout >a:hover{
+    	background-color: #00a050;
+    	color: #fff;
+}
+.active{
+	background-color: #fff;
+	color: #008080;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,128,128,0.9); /* Black w/ opacity */
+}

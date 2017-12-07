@@ -1,0 +1,101 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+.signup{
+	width:100%;
+	position: relative;
+	padding:0;
+	margin: 0;
+	background-color: #3c3c3c;
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+	height: 50px;
+}
+.form{
+	background-color: #fff;
+	width:33%;
+	left: 33%;
+	position: relative;
+	top: 15%;
+	height: 55%;
+
+}
+.loginbtn{
+	float: right;
+	padding: 10px 20px;
+	border: 1px solid #008080;
+	color: #008080;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: #ccc;
+	text-decoration: none;
+}
+.loginbtn:hover{
+	background-color: #008080;
+	color: #fff;
+}
+
+.signupbtn{
+	text-decoration: none;
+	color: #fff;
+	background-color: #3c3c3c;
+	padding: 10px 20px;
+	font-size: 18px;
+	float: left;
+	border:none;
+}
+
+
+#info{
+	font-size: 12px;
+	text-align: center;
+}
+span{
+	font-size: 8px;
+}
+
+.signupbtn:hover{
+	cursor: pointer;
+}
+
+.formcontent{
+	padding: 2px 15%;
+	width: 60%
+}
+.profile{
+	font-size: 10px;
+
+}
+input{
+	background-color: #fff;
+	border-bottom: 1px solid #3c3c3c;
+	width: 75%;
+	color: #3C3C3C;
+	height: 32px;
+	text-align: center;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 5px;
+}
+input:focus{
+	border-color:#008080;
+	color: #008080;
+	content:"";
+}
+
+
+ /* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(60,60,60,0.9); /* Black w/ opacity */
+}

@@ -1,0 +1,97 @@
+.toptext{
+	width:100%;
+	float: right;
+	position: relative;
+	padding-top:20px;
+	margin: 0;
+	background-color: #008080;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	height: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.form{
+	background-color: #fff;
+	width:30%;
+	left: 40%;
+	position: relative;
+	top: 30%;
+	height: 48%;
+	border-radius: 5px;
+
+}
+.browsebtn{
+	font-size: 15px;
+	color: #008080;
+	background-color: #fff;
+	border-radius: 3px;
+}
+#info{
+	font-size: 8px;
+	text-align: center;
+}
+
+
+ /* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+
+
+.formcontent input{
+	height: 20px;
+}
+
+.formcontent{
+	padding: 2px 15%;
+	width: 80%
+}
+
+.content{
+	top: 10%;
+	height: 60%;
+	position: relative;
+	float: left;
+	left: 40%;
+	width: 33%;
+	background-color: #008080;
+}
+select{
+	padding: 5px;
+	background-color: #008080;
+	border:none;
+	border-radius: 3px;
+}
+
+button{
+	color: #009c50;
+	padding: 10px 20px;
+	border:none;
+	background-color: #fff;
+}
+.top{
+	text-align: center;
+	padding: 5px;
+	background-color: #009c50;
+	color: #CCC;
+}
+.addform{
+	background-color: #3c3c3c;
+	padding-left: 10%;
+	justify-content: all;
+	color: white;
+}
+

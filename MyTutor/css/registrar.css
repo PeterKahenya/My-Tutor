@@ -1,0 +1,72 @@
+html { 
+  background: url(../images/addcourse.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+.container{
+	position: relative;
+    width: 50%;
+    left: 25%;   
+}
+.logo{
+   text-align: center;
+   width: 100%;
+   height: 200px;
+   opacity: .7;
+   background-color:#fff;
+   font-size: 11em;
+   color: #3c3c3c;
+}
+.menu{
+	top: 150px;
+	position: relative;
+	width: 50%;
+	left: 25%;
+}
+.assign{
+	  float: left;
+	  background-color: #008080;
+    color:#ffffff;
+    text-align:center;
+    padding:10px 15px;
+    font-size:18px;
+    border:1px solid #008080;
+    font-family: arial, sans-serif;
+}
+.assign:hover{
+    background-color: transparent;
+    color: #008080;
+}
+div.assign a {
+ text-decoration: none;
+ color: white;
+}
+
+
+.assign a:hover{
+	color: #008080;
+	-webkit-transition: color 0.4s ease-in;
+	-moz-transition: color 0.4s ease-in;
+	transition: color 0.4s ease-in;
+}
+.add{
+	  float: right;
+    color:#FFF;
+    text-align:center;
+    padding:10px 15px;
+    font-size:18px;
+    border:1px solid #FFF;
+	  font-family: arial, sans-serif;
+}
+
+div.add a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+div.add:hover a {
+	color: #008080;
+	 }
+.add:hover{
+	background-color: #FFF;
+	color:#3c3c3c;
+}

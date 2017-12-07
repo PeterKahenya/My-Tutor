@@ -1,0 +1,33 @@
+html{
+	background: url(../images/addcourse.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: arial, sans-serif;
+}
+.container{
+		background: #FFF;
+		opacity: .9;
+		width: 470px;
+		height: 300px;
+		margin: auto;
+		border-radius: 0px;
+		margin-top: 50px;
+		font-size: 18px;
+		text-decoration: underline;
+		padding-top: 30px;
+		padding-left:60px;
+		color: #3c3c3c;
+		position: relative;
+		padding-right: 20px;
+		box-shadow: 0 5px #3c3c3c;
+}
+.container select,input{
+	margin-top: 30px;
+	background-color: #3c3c3c;
+	width: 250px;
+	height: 35px;
+	font-size:18px;
+	border-radius: 5px;
+	color:#FFF;
+	border-width: 0;
+	text-align: center;
+}
